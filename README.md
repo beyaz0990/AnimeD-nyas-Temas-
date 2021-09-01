@@ -1,2 +1,0 @@
-# AnimeD-nyas-Temas-
-AnimeDünyasıTeması
