@@ -1,0 +1,204 @@
+/**
+* @name AnimeDünyasıTeması
+* @author PezevenkBey#4809
+* @version 1.0
+* @description An easily customizable and automatically updating theme
+* @invite FdZhbjY
+* @source https://github.com/puckzxz/NotAnotherAnimeTheme
+* @updateUrl https://raw.githubusercontent.com/puckzxz/NotAnotherAnimeTheme/master/NotAnotherAnimeTheme.theme.css
+*/
+
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/build/v3/naat.v3.css);
+
+/*
+  To make editing this theme easier I recommend using Notepad++
+  you can download it for free here https://notepad-plus-plus.org/download/
+*/
+
+/* Any images you use MUST end with .jpg or .png or any other image extension */
+
+:root {
+  /*
+    Theme Background
+  */
+  --theme-background-image: url(https://img.wattpad.com/0722e27f4fbb6d781eb0aeb1049c48bf5af449c6/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f577a7a615f787a7061642d7545513d3d2d3431313333353431312e313637613531613666653062303734353436343330393139323635332e676966);
+
+  /*
+    Main Theme Color
+  */
+  --main-theme-color: rgb(67, 181, 129);
+
+  /*
+    Main Theme Transparency
+  */
+  --theme-transparency: rgba(0, 0, 0, 0.8);
+
+  /*
+    Home Icon Image
+  */
+  --home-icon-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgVFRYYGRgaGBoaGhwcHBwcGBoaHBocGhoaGhkcIS4lHB4rIRoaJjgmKy8xNTU1HCQ7QDs0Py40NTEBDAwMEA8QHhISHjQsISs0NDQ0NDQ0NDQxNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAMEBBQMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQIDBAUGB//EADwQAAEDAgQEBAUCBAQHAQAAAAEAAhEDIQQSMUEFUWGBInGR8AYyobHBE9EHFEJSM3KC8RUjkqKywuFi/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwQF/8QAKBEBAQACAgEDAwMFAAAAAAAAAAECERIhMQNBUQRhcSIygRMkkbHR/9oADAMBAAIRAxEAPwDzSUoIv5W6GRfraR3QkXpYKh7yTJJJ5kkn1KWk2SBIEkCTMNk/McoJgamATyBTSL+4+qDU4ZWqMa6oxoIJDIuTOug8lsOxVciRSa0nLedG6gERfU+q5vD4x7AQxxbOsb+umqtM43WDcmeeRN3Dvv3XTHKaZsdVhsNNyTLtYJv3CgxGF/5ge5s5RYm+szbvuo+F49jiMrXlx3IaAPINNlNxjHOYwlrJMXv8vWBqtsMXGVgHiqXjwR+mwETYxBA0G837qo7iL6pDKjyGFxmALS6bwPFBO82EaARQALnWuSfqV0nDOFtY2XiXnY7LOO8q1dQmO+GSGNdTJc4fODEQAbjfaI6rLocHqvY54acjT4iSAAT5nou74exxMDZamFwwZ4nGG3Jj7dVrLGMzKvOMN8N4h8FtJ8OBIJBDTHXn+yzP03CHQYJIbbMCbSIMgm4Xs5x9MCCXFjwQ5pEkAzzN7FcfjOEggsORzBmbTaG+JrZJa4ugeO8HawWeG15OCLSDBFwYIPTYpFtP4BUDpPyzczeNz26wjimGYxrG5MrTJzavLreEztBF9PRZ4VvlGKAp8PhHvMNaSZj36rX4Ph6RcYcCQBB0knMTAOkZfYWniWMLXNFy6xI0ixiFrH09xm5M08FDXNa1zahdaCSAy13OymSOgI1VPiOHykU2CRTbLnAG5PzEmNJ92WxgqLWDKIEtIJkB0GAXX0uRCpcR4kzP4JhjCxomxcD4HEzcA3GtwCrljJEltqvxNrGBtNgBflH6hgGDuGnnsSu1/hq0l41sR5dPoCvN3OGeRMZpGa7om0xqea9P/hgwZ+0++yuGX6cvwZTxHbcef446rl/iluVjHcwdpFx1trP32XS/ENneq5n4hOfDgi5Y6CehmPsfTqun03nFN6zt+HHU6p8Q2OvWOY3Wx8IYV5rtfkcWNzAuGjS5pAv3+qr8B4d+tVbTmAZLjE+Ea7jXTuvRa1FlFmVjQ0CYA+88+q9P1Hrcf0T3Yk3duM+J6Ypm0k5SSJM76bcl51jcYXvJvEEAE6A/5V3fxLXDGPc8El4IG8TYHtK84cvD6mVmMjphPdIx8EEDS97iQZ05RAi+/kOvpfEFKpRyV/myta6xuAbBpB0gAx5rjRHv6fVJK545abuO2rX4iwPe5jG3yhoLWltj4pbG8bR91m1KrnGXOJNzfmdU1CzcrVk0EIBQgCn0mZnBshoJALnfK2TGZ0AmBqYUZKVBcw2Da4uBqMbBIm5BA3HQ7KyzhzHg/pkuII+YhoPOAJJ2usxtRwEAmJmJtOkxzWhgsUKch9ibgi+sclrHV8pdo38KqDVveQmjhj9gD305eqvM4kwklzna2BBIjnZRP4uZs0WPhdcHotccU3UvD8FkINTwmbGftBVmrioecrXPA1LRLTcWB0VtrxkDiBBAJKzn8ZEFrGXmByI3st6kZ7owGFJrB72BmrgPoD029F0dCkXSRHJYuDqFsGqZc7QWgX263Cv/AM0BBYY8j94W8Z10lbmGpQMxcQR6fXVOrYuxFzK5h/G3ioGETmi8+lk/ivEA1hl0OcDlAuZ/A6p15TTSxPEGsEvcAOv2jWVgcb4xmGRh0dIc12ogjY2MysGpUcbkkzaTJmItJ5SFG4k3Jnv2XHL1N9RuY6aL+MP/AE202gAAQTcuPUHZZwEnZCNtO9/Tkudyt8t60t4R7WGSQb6wZ7K83jIYPCySDYuNvPL+FjJzHkTBIkZTG7TBIPSw9FqZ2TUS4ytLHvAIc/I97yHnKTGX+kRFhEHr5LLb15HS94tuN7dATrokKVZyy2smiNXqX8La/wDzADqQANtAvLmC69L/AIXAms0EwG5oFhJIMk7nzvsOS3h+3L8MZezuPiGoC43Aga7LjsLiw/8AVpOmHttyBFx3tHcrofiB9nnzC4CjiclQO/tcDzBjQR9PVe76b094OV7xt+6H+fdSeHsMFhJEC8Tq7Yi8a9Fp4z+INV1MMDGB+7/m/wClpFj5yue+IWhr3hvyzmb/AJXDMz/tIWG95JJJudVn6nKTLw3hj0u8V4q+uQXumBA2HnGk31WcgoXhyy5V1k0EJISwoFTQEsIQKLoSAdvX9kIAn3CEFp5a3HUaSO4PohArHQQeV76K9SxwJOdoIizQABvadhc+qoNMGRsgJLYaPZTL3Q0cyB011KtYINY4l5BAlsNMl2mkajZVWBsEkkEaQJnzMiPO6fhgw2eSORG3mPeqsK33cRY4ZWkXsAZHbS3JLh2tMCGzawvCo4inhmssS49D4j05D0ULeJBoLWM3m5vEDWNdF15a8sa+FjiTQ3PmdLnNsInfblNvRZpxjw0NBgCNNdPZ80mKxTnmXHoOgUC55Z99NSNChiGtbnIc55dBmYEaX3MKDGYsvcHCRERfTr0UGckBuwmB1KaB7m/KyXK2aNBwG31EH0QpKZbJzAxBjKRYwcpMgyJiRYkTcaiN3T9vpeFlQUbe+myAUqBpTkhM3KFkCEIQDdV6f/DMD+YYebXf+K8vbqvS/wCG+KP61JpNpdlGwLmkGOpgL0en3hlPs55+Y3viesMjyNyvPMS+AHdPyf225LtPiZ8NI5krgMa+LOmL6azBjXaY9d19D0Lw9K5Oc3ZJ/KXilcVKVN/9TQWO5wDmYTzs5w8mhYbCJ8UxfSJ0Ma9YWhwvxl1I2zghs7PF2ep8P+voqbcOVw+q1nMc8fed/l1k10hDCVNTwznGGtcTyAJPoF6N8O8AZTYx72NL3AOGYGWjX5TaVrf8Lw2bPGV8HNk8E5omcsTp9V5OEOTz2lwVn8s6q8upvaTZ7XAO2AaSIN+W9vKnxPGMfTpU2MyBglxgS+oQMxnU9/QLpsV8Mlz3Zqx/TJJabveddWkiNUvEuHB9L9KmGAS0gu1EamQCQTewtda4ddJycM6s4tawuJa3MWtJs3NBdA2mBPkmK9xDhj6ToeIuQDzjfuoK2FcyJDu40O481yuNdNoULUNGgwAOl7yAXAEtyyAQLTOp8oQnH7ptlpEqGg7TodOW6ikTmGBMiQRAImbGTcRaBY/3dCkS1GQYDg6NxMHqJAMeYCBqSUqAY9wgSUqHRNrCbbx3QgCPfndCESgAfcckIQgEBGiAOv3v098kCSnMifFMQdImYMa7TE9JSShAJAlIQgQIISrQ4Vw51d4YLa5nRIaIJBPe3dMcd9FulGnTJIAEmQO50XpnwXgHUK9FlRoDy5rwQ4GGFpGUtGhk3J5CFjYf4Qccpa6XhzZYCAIAu4PcdZHLddn8OCnRc2niXM/XD2uDg12YjQAuIjXlE23XWTjL+HO3ah8W0iwiRBuYMHU2tt3XnHFXXXpPx9iiaukQSPQleZcQNyvby/tkmtyRFhXnMNr6wB0119yvacDw1mGpjwML3tDn7tz3JiR8oJcBbQBeH03XXfcB+MXua6nXLngNBYQBLcjTmsB4gWiSdsvImPJhcspwn501l8uoxmKuS46+4WVi8YGj5rkaRMdUmMrZ25mHM2T4hB05dFg4rGMbmzvbLRcSM3otSRhbOKkgC3MnU9T+yvtw5ifouHw3GXAnMA69tueto5K3W+JH2y8vFNxPSdI/Kcsfarxrr61BhAz5TkvLtBG5JsuIxPGHgvaAwjxgOAMwTqDvYW5K1xH4kNSmWBgGZsOnVpBmx3C5xy5Z5fDWOPyVCSEq5tlc2DB1FikQhAIQhAiEqEAyJEzreOW/dWH4VxIcxhyuJLYvETY8iIVdzttBOl4nurGCxWRwJkt3E+f7q468Uqs5pFiIPIob7/dWsY79R5LJObaII6amfNOZw15cWQA6JA/uExY/unG76NqbhEjXy07IAmwT69FzHFrhBGoUYWaFQklMc6VQ5z0wvKRCBzqjjckk2FzNgIAvsAAOyM5TUIFzHmtbhXG30RDQ2+8X1nushCstxu4WbehVfjB1KMjWOc5pMgyGZh4Rb5iOyq0viJ+IqUTUN2OuRF5cNOWgsuMY6RG4+3/z8q/w10OB6rrMu453Hp6H/EDw1iPM6c76915ti6klejfxCec7Ht/rpMfOmoFx3Gy8zqG5XXPO/wBHHExnZhU2HruY4PaSCCCDyKiQAvJjlccplPMdGhjxkILCQx7Q9oDraw5vUtcCOwKz3OJuVp4ZjnsNAOzEkvawSQajJGWWjxZmgxlJmyp4pgD3ZXZ25rOG4NwdTBjUSYM3K6+rq3lPFJECVCFyCBKhCBQek+v4KRLHVCARCWEQtBqEsIUA4zcpEqRQBSQnkmAJJAkgbCdSB2HomoFY8gyDBWlQ4uRGYSZ8R3yybDrdZkIVmVng1trYnE0qrgX55yxaAByud1l1qYBhr8w5xB8iDupMKwF7QdJV/i+GYxgc2xJgbzvM+Q+oWrLlNp4umI9yRSVKRaGkgjMMw/y6A97+iY5sR5SuelIhCFQgCUlCECQlSN0SoAGLhX8EbjqqEK9gLgjl4h5TDvwf+pbw7qZeHoXxu7NhsK7nhmDuAZH0XnNSoSA2fCCSByLom/8ApC774hqh2AwbhP8Ah1G92PiDyF5Xn79Vv1P24/z/ALZhEIKFxbWMA+HtBeWAuEvaJcz/APQiDvsQujqcJdUoPr5S55ILyNGOkuz2+YPBJ2ALXcwuVBXQ8H+JH0Kb6Qgse0tIcAYBn5T/AE3JPsRnPlrp6PRyw7mX+WBUbBj37/dI1pgm1tbje1gfwn1ny4lRgLThfIhCcGEgkaCJ76JsKoEJUKh7WyQOZjUAX6mw7pCnQlcZ26bAQAALAa9d59QjhJCnqVnODQ4yGNytEAQ2S6LC93Eyb3TMhifOPMQT9CgYGpQQAREkxBnTe0a8rpXGToB0Ex9SmwgRsyI1280kJYQAgMhiYMTExadYnmmp82jbWNvND2FpgiDb6iR9CpoNCsY3FCoabYyhoymNBJgkdIAUCje24PZN6gscWrtfUJZ8jQGt8gP3lU3On0A9EOKRS3YV0bch6xf6oa2bBIhArmkaghAaeScyo4aE/j0T/wCZdzHorOJ2iDeQ8lI3Du3gDqmB5t0n6pHOJ1JPmk0JH5RGXUH32UnDqwY9riJANxzabOHdpI7qsnUzdXHLWUpZ09B4s2OH02a5MQ9rXc2PY2o09/wuFeLrtuH8QpVOGvoveBUpva5gOrmgOAjyzEdguMqjddfU1ZNeO/8ArGPxUSVEIhcWxCEqIVCQlKWEoQI4X0hACe6mQAdjpcbW027pAECISgJE0HlK1s2t6gDuTb7JxCQtV0ya5vWbDSd9rjZITvp9Anoa4gggkEGQQYII0IOxTQZCSEobsEQml2bCAE6EQppTYSEKSJ293Jskj3793QMhI85ehn0P7hPhVqjpPQKUMQgIUAhJolQCEIQCEIQCSUqa/RBI2oQnisN1CCrrDabXvoJ3GuvNWBgSwnQlhUNhEJ0ITRskIhOSQrpNnF0gTFhFhB1JudzfUpAOQRCmoUC8w0Ek7BXW02hhKtStwerY5IsBDY2AEm++vmShONTahCBoRA1Bne06Hlf6BOKCroMITIUqQhNCOEhCkyoBj3yU0qKEQpgGwZnNbLpEXzSdZ0jumQmg0k2HLRJCdCIU0IqzoH0VJxsrlcXHQFx7f7fVVqNPM6NgLrGXlqEQmu0St0QKkASoQCEIQCEIQITcJzRJA5kKKbqajdw8/tcqRaiZaQrmGEt8ifx+6hrM8bvKfWB+SrWGBDeU69Rb9gtYztKIRCfCIWtMmwgBPhEKhsJQ1SECBEzebW1tHOysMxrwABlt0HkkkQMwsNLnCdgN559lrcKxDWAyI0+aAXbW3IlZjeIv6en2TXYou+aT3HbZdJZErq3Y09AkXMHiD9jb1+qFdw4qqRKQkWGiogDXkIgiNjftNuflCAUEoESubBgxYxIgjzBFiOoSJUCJHN92/CVCmkNhEJyITQicyZ6tj7/umYWnlbfUmT+ArEJWUyTA1U49rtl4hkEj3GyhDtFtYjhz3AkNMj2QscUHZgyPETABtJ2XPLGytSylJRKZcW7EJQCBO2h6IFebJ0qIO+6fWYWuLTsfpsptdBxTmCYA6KSlhS5j3n+kNjrL2tP/AJLa4LwCpUaKkAMMhpOp5ujlqBz9FccbalumBiRDyBtH2Cs4GkfmPb371XSYL4Yz1Hue5zGNe5rJHjflJAeAdGwJE6yNlr4P4dptDg5wcIgQIIPPVdMcO9s3KeHFGlJcTuAPS6layYA7LT4vw79J+UEkbHSbKnRYCQ2CCSAL2+261x0m0bqDhq0+hTMq3cJhaoJa2mTHW3ZxsVE3KXQKZzjSLGRe61xTbJLCNQU1adeo6CKjPLUR+6oimVLiu0cIhbOG4MXAEuie91HjuElgzTmHQaeacU3GXCnZQDg3JmLjMiLDlBGqSq9xyg/0jKLAWkm8a6m5Vvh2MNOYaDJ1P2VkUxvDX/2O9ELo6fFARy6QhXSbrlMUwBxABA5EyVCt7jGEaG5xuR5rENNSxZTEJ2RKAs6DYQAnwgK6DSE1SJpYmg1KlLE1QS0SJvotnDUKE2cDItNoPrHqsJActSljpG1GgkajRMZgqJADpImT+IjQrIp4pwEGCrTMUMpJIFlrcrOl/jHDqFRzXE5XkiS0Ah0aZ2H5voTvNo5sYZjHOy6EmBqIkxE3jzJT6nEXk2gDyn6lVf1Dz+yxlhvw3j15FTBMIMCPLbty6KV1IGC4SQInnaCPJR/qnonuc6Jt+Vz/AKdb3F7heHaSGFoc3LodDBBuN+d7LrGYkgAZrLicLWcDmDiDoIt56LVwWLJs4ydQfuPf4XXHHU1XLLutp2LcdSlZUi5KzjWTXYgrSaa1WoHjK8Aj3F1h47hRb4mkOaYvuDyICsfrpuJxRDIE3cNNovKaFnhVd9NmTKNZaTbXtf1Vk4oAy5rZPzRIBPM3WLU4w8gNJOUDTZRDHEnROjTpG4qnkiAXDS2nVV8OG5iXAHodFnNeniueiaGq+uB8sD8KF9TNYkgdIWeaiT9Ypo0tP4SwyS50kW016lObwppaA4BpjUc+fVQMqnmpf5nqU0KVThjw4tbcCL6TPRCuf8VAtA+qEVoMAcPEJB1BEqF+Co5pDL/9vZuia3EKw4ghEZ9fgQIljo6Fc9WYWkg7cjK7OnoQ6YIhctxWi1jy1pkc90IpylTYSgrLR4ToR+m6JgxzTQUQ4tSZAnlDB1jr/sroRGmkDFMVHUqtaSJBMx4YOnUW+qmlJlUGIdt6+/eyV9c7CPO6gcZVkWQ1CEsrW1TUae/opVVYb6x52VgPA/qn30WalK1sWCX9XIQRrt75KM1h1+yhe+dh+fVIadBTqBwDhofcIcRuVgNquGhI7mFJ/NP3M+f/AMWmeLaVepiyJDdN+qosxXMeinYQRIus200hLU9jFLCApoPp1CE8VSo2kb6JJWhMaqcyrzVcuSSpsWH1v7SoXVCbymyhNhzX9AUJiVNjaV+ihCqLI0XJcU+d3mhChFJ2nf8ACQoQo06HCf4aysd84/yD8pULSL+P/wAPsz8LLahCCLG/Ie33Cgob9kIU+V9jq3y++agQhWeFgCEIVAgIQikCVCECFASIQCtYH+r/AE/+yVCVL4WUBCFhkIQhUCRCFApQhCAQhCD/2Q==);
+
+  /*
+    Change your friends icon image position
+  */
+  --home-icon-image-position: center center;
+
+  /*
+    Change your friends icon image zoom
+  */
+  --home-icon-image-zoom: 100	100%;
+
+  /*
+    Server Listing Width
+    Single Column:  72px
+    Double Column:  126px
+    Triple Column:  184px
+    Quad Column:    242px
+  */
+  --server-listing-width: 126px;
+
+  /*
+    Font Size
+  */
+  --font-size: 150%;
+
+  /*
+    Mention colors
+  */
+  --mention-color: rgba(252, 166, 26, 0.05);
+  --mention-sider: rgba(252, 166, 26, 1);
+  --mention-hover-color: rgba(252, 166, 26, 0.08);
+
+  /*
+    Server category hover color
+  */
+  --category-hover-color: rgb(60, 202, 138);
+
+  /*
+    Change the unread server animation.
+    Replace it with "none" in order to remove any animations and use the main color instead
+  */
+  --unread-server-animation: rainbow;
+
+  /*
+    Video / Screen share buttons
+  */
+  --video-screen-button-background-color: rgba(200, 200, 200, 0.2);
+  --video-screen-button-foreground-color: white;
+  --video-screen-button-background-hovor-color: rgba(200, 200, 200, 0.4);
+  --video-screen-button-foreground-hovor-color: white;
+
+  /*
+    Role Title Color
+  */
+  --member-listing-role-color: var(--main-theme-color);
+
+  /*
+    Small User Popout
+  */
+  --small-user-popout-background-image: var(--theme-background-image);
+  --small-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
+  --small-user-popout-background-image-position: center;
+
+  /*
+    Big User Popout
+  */
+  --big-user-popout-background-image: var(--theme-background-image);
+  --big-user-popout-background-transparency: rgba(0, 0, 0, 0.6);
+  --big-user-popout-background-image-position: center;
+
+  /*
+    Code Markup
+  */
+  --code-markup-background-color: rgba(0, 0, 0, 0.6);
+  --code-markup-border: 1px solid transparent;
+
+  /*
+    Message Box Transparency
+  */
+  --message-box-transparency: rgba(0, 0, 0, 0.6);
+
+  /*
+    Embed Background Transparency
+  */
+  --embed-background-transparency: rgba(0, 0, 0, 0.6);
+
+  /*
+    Message Hover Buttons
+  */
+  --message-hover-buttons-background: rgba(200, 200, 200, 0.1);
+
+  /*
+    Context Menu Transparency
+  */
+  --context-menu-transparency: rgba(15, 15, 15, 0.8);
+
+  /*
+    Add Server / Discovery Icon
+  */
+  --add-discover-icon-transparency: rgba(200, 200, 200, 0.15);
+  --add-discover-icon-color: #43b581;
+
+  /*
+    Channel Limit Number Color
+  */
+  --channel-limit-count-color: var(--channels-default);
+  --channel-limit-background-left: rgba(200, 200, 200, 0.1);
+  --channel-limit-background-right: rgba(200, 200, 200, 0.2);
+
+  /*
+    Scrollbar Colors
+  */
+  --scrollbar-color: rgba(200, 200, 200, 0.2);
+
+  /*
+    Unread Message Divider
+  */
+  --unread-message-divider-color: #f04747;
+  --unread-message-divider-font-color: #fff;
+
+  /*
+    New Messages Bar Color
+  */
+  --new-messages-bar-background-color: #7289da;
+  --new-messages-bar-font-color: #fff;
+
+  /*
+    Emoji Menu
+  */
+  --emoji-menu-background-color: rgba(0, 0, 0, 0.6);
+  --emoji-menu-sider-background-color: rgba(0, 0, 0, 0);
+  --emoji-menu-server-header-background-color: rgba(0, 0, 0, 0.8);
+  --emoji-menu-bottom-bar-background-color: black;
+  --emoji-menu-search-bar-background-color: rgba(200, 200, 200, 0.1);
+
+  /*
+    Message Search
+  */
+  --message-search-menu-background-color: rgba(0, 0, 0, 0.8);
+  --message-search-container-background-color: rgba(0, 0, 0, 0.6);
+  --message-search-result-background-color: rgba(200, 200, 200, 0.05);
+
+  /*
+    Channel colors
+  */
+  --text-voice-channel-color: rgb(141, 146, 151);
+  --text-voice-channel-hover-color: #dcddde;
+  --text-voice-channel-selected-text-color: #fff;
+  --unread-text-channel-color: #fff;
+  --unread-text-channel-bubble-color: var(--main-theme-color);
+
+  /*
+    Folders
+  */
+  --folder-background-color: #2f3136;
+  --expanded-folder-background-color: transparent;
+
+  /*
+    Reactions
+  */
+  --reaction-emoji-background-color: rgba(0, 0, 0, 0);
+  --reaction-emoji-border-color: 1px solid transparent;
+  --reaction-emoji-hover-background-color: rgba(255, 255, 255, 0.1);
+  --reaction-emoji-hover-border-color: rgba(255, 255, 255, 0.2);
+}
